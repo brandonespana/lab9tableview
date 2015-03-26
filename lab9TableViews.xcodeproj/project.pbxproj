@@ -14,6 +14,7 @@
 		AACB50E31AC4C61B008A2629 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACB50E21AC4C61B008A2629 /* Images.xcassets */; };
 		AACB50E61AC4C61B008A2629 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACB50E41AC4C61B008A2629 /* LaunchScreen.xib */; };
 		AACB50F21AC4C61B008A2629 /* lab9TableViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AACB50F11AC4C61B008A2629 /* lab9TableViewsTests.m */; };
+		AACB50FD1AC4C8A4008A2629 /* Waypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = AACB50FC1AC4C8A4008A2629 /* Waypoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AACB50EB1AC4C61B008A2629 /* lab9TableViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lab9TableViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACB50F01AC4C61B008A2629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AACB50F11AC4C61B008A2629 /* lab9TableViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lab9TableViewsTests.m; sourceTree = "<group>"; };
+		AACB50FB1AC4C8A4008A2629 /* Waypoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waypoint.h; sourceTree = "<group>"; };
+		AACB50FC1AC4C8A4008A2629 /* Waypoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waypoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				AACB50E21AC4C61B008A2629 /* Images.xcassets */,
 				AACB50E41AC4C61B008A2629 /* LaunchScreen.xib */,
 				AACB50D51AC4C61B008A2629 /* Supporting Files */,
+				AACB50FB1AC4C8A4008A2629 /* Waypoint.h */,
+				AACB50FC1AC4C8A4008A2629 /* Waypoint.m */,
 			);
 			path = lab9TableViews;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AACB50FD1AC4C8A4008A2629 /* Waypoint.m in Sources */,
 				AACB50DE1AC4C61B008A2629 /* ViewController.m in Sources */,
 				AACB50DB1AC4C61B008A2629 /* AppDelegate.m in Sources */,
 				AACB50D81AC4C61B008A2629 /* main.m in Sources */,
