@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Waypoint.h"
 
 @interface ViewController : UIViewController
-
+@property(strong,nonatomic)Waypoint* selectedWaypoint;
 
 @end
 
