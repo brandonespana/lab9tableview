@@ -17,6 +17,7 @@
 		AACB50E61AC4C61B008A2629 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACB50E41AC4C61B008A2629 /* LaunchScreen.xib */; };
 		AACB50F21AC4C61B008A2629 /* lab9TableViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AACB50F11AC4C61B008A2629 /* lab9TableViewsTests.m */; };
 		AACB50FD1AC4C8A4008A2629 /* Waypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = AACB50FC1AC4C8A4008A2629 /* Waypoint.m */; };
+		AADB2C991ACA3DCE00AB28E1 /* AddWaypointController.m in Sources */ = {isa = PBXBuildFile; fileRef = AADB2C981ACA3DCE00AB28E1 /* AddWaypointController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		AACB50F11AC4C61B008A2629 /* lab9TableViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lab9TableViewsTests.m; sourceTree = "<group>"; };
 		AACB50FB1AC4C8A4008A2629 /* Waypoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waypoint.h; sourceTree = "<group>"; };
 		AACB50FC1AC4C8A4008A2629 /* Waypoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waypoint.m; sourceTree = "<group>"; };
+		AADB2C971ACA3DCE00AB28E1 /* AddWaypointController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddWaypointController.h; sourceTree = "<group>"; };
+		AADB2C981ACA3DCE00AB28E1 /* AddWaypointController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddWaypointController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				AA820EDA1AC9C81C000CD81E /* WaypointTableViewController.m */,
 				AA820EDC1AC9C861000CD81E /* WaypointLibrary.h */,
 				AA820EDD1AC9C861000CD81E /* WaypointLibrary.m */,
+				AADB2C971ACA3DCE00AB28E1 /* AddWaypointController.h */,
+				AADB2C981ACA3DCE00AB28E1 /* AddWaypointController.m */,
 			);
 			path = lab9TableViews;
 			sourceTree = "<group>";
@@ -234,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADB2C991ACA3DCE00AB28E1 /* AddWaypointController.m in Sources */,
 				AA820EDB1AC9C81C000CD81E /* WaypointTableViewController.m in Sources */,
 				AACB50FD1AC4C8A4008A2629 /* Waypoint.m in Sources */,
 				AA820EDE1AC9C861000CD81E /* WaypointLibrary.m in Sources */,

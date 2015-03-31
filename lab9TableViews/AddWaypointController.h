@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddWaypointController.h
 //  lab9TableViews
 //
 //  @author: Brandon Espana mailto:biespana@asu.edu
@@ -11,10 +11,7 @@
 #import "Waypoint.h"
 #import "WaypointLibrary.h"
 
-@interface ViewController : UIViewController<UIPickerViewDelegate,UIPickerViewDataSource, UITextFieldDelegate>
-@property(strong,nonatomic)Waypoint* selectedWaypoint;
-@property(strong, nonatomic)WaypointLibrary* waypointLibrary;
-@property(strong, nonatomic)UITableView* theTableView;
-
+@interface AddWaypointController : UIViewController <UITextFieldDelegate>
+@property(strong,nonatomic)UITableView *theTable;
+@property(strong,nonatomic)WaypointLibrary* waypointLibrary;
 @end
-

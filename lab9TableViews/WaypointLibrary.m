@@ -38,6 +38,7 @@
         NSString* currentWPName = currentWP.name;
         if([currentWPName isEqualToString:wpName]){
             [self.waypoints removeObjectAtIndex:i];
+            NSLog(@"Removed this waypoint: %@",currentWPName);
             removed = TRUE;
             break;
         }
@@ -103,5 +104,7 @@
     //NSLog([NSString stringWithFormat:@"Waypoint in Category count: %lu",(unsigned long)[waypointsInCategory count]]);
     return waypointsInCategory;
 }
+
+
 
 @end
